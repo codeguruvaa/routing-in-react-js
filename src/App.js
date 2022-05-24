@@ -1,13 +1,13 @@
 import React from 'react';
-import { Switch } from 'react-router-dom';
 
-import { Route, BrowserRouter } from 'react-router-dom';
+import { Route, BrowserRouter, Switch } from 'react-router-dom';
 
 import About from './Pages/About';
 import Home from './Pages/Home';
 import Blog from './Pages/Blog';
-import Header from './Components/Header';
 import Notfound from './Pages/NotFound';
+
+import Header from './Components/Header';
 
 import './App.css';
 
